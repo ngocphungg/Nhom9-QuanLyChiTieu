@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+  
+  font-size: 50%;
+  font-family: "Poppins", sans-serif;
+  
+}
+*{
+	box-sizing: border-box;
+}
+body {
+	background-image: url("images/login.jpg");
+			background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  background-size: 100% 100%;
+  width: 100%;
+  min-height: 100vh;
+  background-color:#F3F3F3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+	
+}
+.login{
+  padding: 50px 50px;
+  background-color:#AEC3F4;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 30px;
+  
+}
+.login-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #373941;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.login-label {
+  font-size: 16px;
+  color:#2E2E2E;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+.login-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 14px;
+  background-color: #f2f3f5;
+  outline: none;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.login-input::-webkit-input-placeholder {
+  color: #b4bac0;
+  font-weight: 500;
+}
+.login-input::-moz-input-placeholder {
+  color: #b4bac0;
+  font-weight: 500;
+}
+
+.group{
+	background: #FBFBFB;
+    position: relative;
+    display: grid;
+    grid-template-columns: 20px auto;
+    padding:10px 0;
+    margin-top: 30px;
+    border-bottom: 1px solid #555;
+}
+.group:nth-child(1){
+    grid-template-columns: 20px auto;
+    border-bottom: none;
+	
+}
+.group:nth-child(1) span{
+    opacity: 0.5;
+    font-size:20px;
+    padding:0 20px;
+}
+.group:nth-child(3){
+   grid-template-columns: 20px auto 20px ;
+}
+.group input{
+    background-color: transparent;
+    border:none;
+    outline: none;
+	margin-left: 30px;
+}
+
+.fa-user{
+	font-size: 15px;
+	margin-left: 15px;
+}
+.group:nth-child(3) input[type="text"] ~ .fa-eye-slash{
+    display: none;
+	
+}
+.fa-eye-slash{
+	margin-left: 450px;
+}
+.group:nth-child(3) input[type="password"] ~ .fa-eye{
+    display: none;	
+}
+.group:nth-child(3) input[type="password"] ~ .fa-eye{
+    display: none;	
+}
+.fa-eye{
+	margin-left: 470px;
+}
+.fa-lock{
+	font-size: 15px;
+	margin-left: 15px;
+}
+
+
+.quenmk{
+	margin: 0 0 0 0;
+}
+.quenmk-link{
+	text-decoration: none;
+	color:#858585;
+	font-size: 15px;
+	text-align: center;
+	
+}
+.login-submit {
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  border: 0;
+  outline: none;
+  display: inline-block;
+  width: 100%;
+  border-radius: 14px;
+  background-color:#648FDB;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 5px 10px 0 rgba(130, 201, 30, 0.5);
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
