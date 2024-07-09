@@ -2,7 +2,7 @@
     session_start();   
 $name=$_REQUEST["namedn"];
 $pass=$_REQUEST["passdn"];
-$conn=mysqli_connect("localhost","root","") or die("disconnect");
+$conn=mysqli_connect("localhost","ngoc","@Ngoc1206") or die("disconnect");
 	mysqli_select_db($conn,"qlchitieu")or die("not found");
 $sql="Select * from user ";
 	$result_name=mysqli_query($conn,$sql);
