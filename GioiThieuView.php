@@ -64,7 +64,7 @@
 
 <body>
 	<header>
-		<h2>Trang web Quản Lý Chi Tiêu Cá Nhân do hai bạn này làm nè</h2>
+		<h2>Trang web Quản Lý Chi Tiêu Cá Nhân do Nhóm 9 thực hiện</h2>
 	</header>
 	<nav>
 	<ul>
@@ -73,15 +73,16 @@
 			<p>Phùng Thị Bích Ngọc - trưởng nhóm</p>
 		</li>
 		<li>
-			
-			
+			<a><img src="images/ND1.jpg"></a>
+			<p>Nguyễn Thị Ngọc Diệp </p>			
 			</li>
 		<li>
 			<a><img src="images/ND1.jpg"></a>
-			<p>Nguyễn Thị Ngọc Diệp - thành viên</p>
+			<p>Nguyễn Công Hải Nam </p>
 		</li>
 		<li>
-			
+			<a><img src="images/ND1.jpg"></a>
+			<p>Lê Vinh Quang </p>
 		</li>
 	</ul>
 	</nav>
