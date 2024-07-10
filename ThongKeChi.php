@@ -75,7 +75,7 @@
 
     <?php
     // Kết nối cơ sở dữ liệu
-    $conn=mysqli_connect("localhost","root","") or die("disconnect");
+    $conn=mysqli_connect("localhost","ngoc","@Ngoc1206") or die("disconnect");
 	mysqli_select_db($conn,"qlchitieu")or die("not found");
     
     
