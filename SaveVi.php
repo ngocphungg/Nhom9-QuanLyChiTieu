@@ -6,3 +6,4 @@ $sql="INSERT INTO list_accounts (id_acc, name_acc,money_acc,thu,chi) VALUES (NUL
 mysqli_query($conn, $sql);
 header("Location: AddChiTieu.php");
 ?>
+THEM VAO FILE, Sua File
