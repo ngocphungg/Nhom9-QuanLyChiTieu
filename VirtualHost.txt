@@ -1,0 +1,14 @@
+<VirtualHost *:80>
+    ServerAdmin webmaster@nhom9quanlychitieu
+    ServerName nhom9quanlychitieu.com
+    DocumentRoot /var/www/html/Nhom9-QuanLyChiTieu
+
+    <Directory /var/www/html/Nhom9-QuanLyChiTieu>
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    ErrorLog ${APACHE_LOG_DIR}/Nhom9-QuanLyChiTieu_error.log
+    CustomLog ${APACHE_LOG_DIR}/Nhom9-QuanLyChiTieu_access.log combined
+</VirtualHost>
